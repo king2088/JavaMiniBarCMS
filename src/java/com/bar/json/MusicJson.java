@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author  Mr.Tao
  * @date    2016-7-30 10:45:15
  * @version V2.0
- * @desc  
+ * @desc  音乐名称、地址url，可以读取进行播放
  */
 public class MusicJson extends HttpServlet {
    
