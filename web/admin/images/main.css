@@ -1,0 +1,92 @@
+/* CSS Document */
+
+*{margin:0;padding:0;border:0;}
+body {
+ font-family: arial, 宋体, serif;
+ font-size:12px;
+}
+
+/*全局代码*/
+.top{width:960px; height:60px; margin:0 auto; background-color:#0CF; border-bottom:1px #CCC dashed;}
+.all{width:960px; margin:0 auto;}
+.all .left{width:180px; float:left; height:600px; border-right:1px #999 dashed;border-left:1px #999 dashed;}
+.all .right{width:776px; float:right; border-bottom:1px #CCC dashed; border-right:1px #999 dashed;}
+/*/全局代码*/
+
+#nav {
+ width:180px;
+    line-height: 24px; 
+ list-style-type: none;
+ text-align:left;
+   
+}
+
+#nav a {
+ width: 160px; 
+ display: block;
+ padding-left:20px;
+
+}
+#nav li {
+ background:#CCC;
+ border-bottom:#FFF 1px solid; 
+ float:left;
+
+}
+#nav li a:hover{
+ background:#CC0000;
+}
+#nav a:link  {
+ color:#666; text-decoration:none;
+}
+#nav a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav a:hover  {
+ color:#FFF;text-decoration:none;font-weight:bold;
+}
+/*==================二级目录===================*/
+#nav li ul {
+ list-style:none;
+ text-align:left;
+}
+#nav li ul li{ 
+ background: #EBEBEB; /*二级目录的背景色*/
+}
+#nav li ul a{
+         padding-left:20px;
+         width:160px;
+ 
+}
+
+#nav li ul a:link  {
+ color:#666; text-decoration:none;
+}
+#nav li ul a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav li ul a:hover {
+ color:#F3F3F3;
+ text-decoration:none;
+ font-weight:normal;
+ background:#CC0000;
+
+}
+
+#nav li:hover ul {
+ left: auto;
+}
+#nav li.sfhover ul {
+ left: auto;
+}
+#content {
+ clear: left; 
+}
+#nav ul.collapsed {
+ display: none;
+}
+
+#PARENT{
+ width:180px;
+ padding-left:0px;
+}
