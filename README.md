@@ -50,6 +50,8 @@
 Bug及联系我
 ============
 由于本人时间有限，无法及时更新此java WEB的各种bug，因此大家请自行进行修改和提交更好的意见给我。<br />
+个人博客：http://www.egtch.com<br />
+项目问题提交地址：http://www.egtch.com/minibarcms#comments<br />
 联系方式<br />
 QQ:514337551
 Email:514337551@qq.com 或 king6180@gmail.com
