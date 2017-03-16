@@ -45,12 +45,15 @@
     dir+="DB.properties";
     */
 将Windows下使用的获得WEB-INF目录下的代码注释，并取消linux下代码的注释，即可成功链接数据库。
+
 四、javamail找回密码功能须知
 -------------
 找回密码功能使用的邮箱是javaminibar@163.com来进行发送密码明文的，如果你想要修改成你自己的邮箱，请找到src\java\com\bar\servlet\GetPwd.java文件中第83行以下的代码进行修改即可！<br />
+
 开发工具
 ==========
 使用netbeans的朋友，如果没有使用tomcat服务器，而是glassfish服务器运行项目的，请将DB.properties放到C:\Users\Administrator\personal_domain\lib目录下，linux平台下的netbeans应该也差不多，找到personal_domain\lib目录即可。
+
 Bug及联系我
 ============
 由于本人时间有限，无法及时更新此java WEB的各种bug，因此大家请自行进行修改和提交更好的意见给我。<br />
