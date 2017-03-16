@@ -1,8 +1,10 @@
 # JavaMiniBarCMS
   小型酒吧在线管理系统JavaMinibarCMS是使用Java MVC模式 + Mysql数据库开发的一个小型的文章管理系统【本系统使用GB2312编码开发】。<br />
   其中使用了javamail、Gson、jspSmartUpload以及百度的ueditor进行邮件收发、json数据生成、图片上传、文件编辑等主要功能。本系统的主要功能：文章信息发布功能、商品信息发布、商品的购买和预订、用户个人信息管理、会员上传分享音乐、留言。前端采用jQurey开发实现，包含了Ajax用户登录注册验证等功能。
+
 使用方法
 ==========
+
 一、数据库配置文件
 -----------
 数据库配置文件位于WEN-INF目录下的DB.properties，打开此配置文件即可看到如下内容：
@@ -16,12 +18,14 @@
     Mysql_password=123456
     #Mysql_Binpath=G:\XAMPP\mysql\bin mysql的bin目录（此处可填，不填写也不影响使用）
     Mysql_Binpath=
+
 二、Windows系统下安装
 -----------
 1、如果自己搭建的服务器环境，mysql命令cmd中可执行，那么首先在mysql中创建一个名为bar的数据库《create database bar》，那么，请将database目录下的bar.sql文件放置于C盘根目录。<br />
 2、将网站源码下载拷贝到Tomcat服务器上(此处以tomcat为例)。<br />
 3、直接在浏览器中输入localhost:8080/install.jsp，根据相应的提示进行数据库sql导入操作即可。<br />
 注意：如果是集成环境搭建的服务器，那么请自行使用mysql进行.sql文件的导入。<br />
+
 三、Linux系统下安装
 -----------
 1、linux系统下，请务必自行执行mysql的sql文件导入命令将bar.sql文件导入到数据库中。<br />
